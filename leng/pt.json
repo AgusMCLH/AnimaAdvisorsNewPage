@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "howWeWork": "Como trabalhamos",
+    "reach": "Alcance",
+    "more": "Mais",
+    "contact": "Contato",
+    "schedule": "Agendar ligação"
+  },
+  "hero": {
+    "badge1": "15 ANOS",
+    "badge2": "120 ANOS DE EXPERIÊNCIA",
+    "badge3": "FOCO INTERNACIONAL",
+    "title": "Planejamento internacional para famílias e estruturas patrimoniais",
+    "subtitle": "Acompanhamos family offices com uma abordagem rigorosa nos pilares tributário, sucessório e corporativo.",
+    "cta1": "Solicitar Consulta Profissional",
+    "cta2": "Nossos Serviços"
+  },
+  "services": {
+    "sectionTitle": "Serviços Especializados",
+    "corporate": {
+      "title": "Serviços Corporativos",
+      "description": "Constituição, transferência e mudança de agente em BVI, Bahamas, Panamá, Nevis e EUA.",
+      "items": [
+        "Registro SFC",
+        "Conformidade regulatória",
+        "Procurações"
+      ]
+    },
+    "planning": {
+      "title": "Planejamento Sucessório",
+      "description": "Proteção do legado por meio de estruturas jurídicas robustas e seguras.",
+      "items": [
+        "Fideicomisos em Trust",
+        "Estruturas por jurisdição",
+        "Heranças por jurisdição"
+      ]
+    },
+    "residency": {
+      "title": "Residências",
+      "description": "Gestão integral de mobilidade internacional e residência fiscal.",
+      "items": [
+        "Residência fiscal no Uruguai",
+        "Procedimentos de cidadania",
+        "Consultoria tributária"
+      ]
+    },
+    "accounting": {
+      "title": "Contabilidade",
+      "description": "Administração contábil rigorosa para estruturas locais e offshore.",
+      "items": [
+        "Balanço anual",
+        "Levantamento de ativos",
+        "Análise financeira fiscal"
+      ]
+    }
+  },
+  "howWeWork": {
+    "sectionTitle": "Como trabalhamos",
+    "subtitle": "METODOLOGIA DE ACOMPANHAMENTO",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Diagnóstico",
+        "description": "Levantamento abrangente da situação patrimonial atual."
+      },
+      {
+        "number": "02",
+        "title": "Desenho",
+        "description": "Preparação de estruturas otimizadas por jurisdição."
+      },
+      {
+        "number": "03",
+        "title": "Implementação",
+        "description": "Execução e coordenação precisa com entidades bancárias."
+      },
+      {
+        "number": "04",
+        "title": "Manutenção",
+        "description": "Monitoramento contínuo e conformidade com regulações vigentes."
+      }
+    ],
+    "guarantee": "Resposta garantida em 24–48 horas úteis"
+  },
+  "reach": {
+    "sectionTitle": "Alcance Jurisdicional",
+    "description": "Operamos nos centros financeiros mais relevantes, garantindo que cada estrutura cumpra os padrões internacionais de transparência.",
+    "jurisdictions": [
+      "Uruguai",
+      "Bahamas",
+      "Nevis",
+      "BVI",
+      "Panamá",
+      "EUA"
+    ],
+    "quote": "Mantemos amplo protocolo de confidencialidade e ética profissional no âmbito do planejamento patrimonial."
+  },
+  "faq": {
+    "sectionTitle": "Perguntas Frequentes",
+    "items": [
+      {
+        "question": "Quais são os requisitos para residência fiscal no Uruguai?",
+        "answer": "Para obter residência fiscal no Uruguai, é necessário permanecer mais de 183 dias no país ou ter investimentos superiores a USD 1,7 milhão. O processo inclui cadastro na DGI, documentação de identidade e comprovação de vínculo."
+      },
+      {
+        "question": "O que implica o relatório BOI da FINCEN?",
+        "answer": "O relatório BOI da FinCEN é uma obrigação para entidades americanas sob a Corporate Transparency Act. Exige declarar os beneficiários com mais de 25% de participação ou controle efetivo."
+      },
+      {
+        "question": "Por que usar um Trust em vez de um testamento simples?",
+        "answer": "Um Trust oferece múltiplas vantagens: evita o processo de inventário judicial, protege ativos de credores, permite controle sobre distribuições futuras e pode oferecer benefícios tributários conforme a jurisdição."
+      },
+      {
+        "question": "Qual documentação é solicitada para o processo de KYC?",
+        "answer": "O processo KYC geralmente requer: documento de identidade vigente, comprovante de endereço recente, declaração de origem dos fundos, referências bancárias e estrutura societária para pessoas jurídicas."
+      },
+      {
+        "question": "Como vocês se coordenam com bancos internacionais?",
+        "answer": "Trabalhamos com uma rede de bancos correspondentes nas principais jurisdições. Coordenamos abertura de contas, gestão de conformidade e comunicação direta com os gerentes de conta."
+      },
+      {
+        "question": "Oferecem serviços de contabilidade para sociedades BVI?",
+        "answer": "Sim, oferecemos serviços completos de contabilidade para sociedades BVI incluindo preparação de demonstrações financeiras, registro de transações e cumprimento de obrigações anuais."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Inicie a Conversa",
+    "subtitle": "Preencha o formulário e um assessor entrará em contato com você.",
+    "fullName": "Nome Completo",
+    "fullNamePlaceholder": "João Silva",
+    "serviceInterest": "Serviço de Interesse",
+    "selectService": "Selecione um serviço",
+    "corporateServices": "Serviços Corporativos",
+    "estatePlanning": "Planejamento Sucessório",
+    "residency": "Residências",
+    "accounting": "Contabilidade",
+    "professionalEmail": "Email Profissional",
+    "emailPlaceholder": "joao@empresa.com",
+    "message": "Mensagem",
+    "messagePlaceholder": "Descreva brevemente sua necessidade...",
+    "country": "País de Residência",
+    "countryPlaceholder": "Brasil",
+    "submit": "Enviar Solicitação"
+  },
+  "footer": {
+    "tagline": "Especialistas em planejamento patrimonial e soluções corporativas internacionais para o século XXI.",
+    "navigation": "Navegação",
+    "legal": "Legal",
+    "navLinks": [
+      "Serviços",
+      "Metodologia",
+      "Contato"
+    ],
+    "legalLinks": [
+      "Privacidade",
+      "Termos",
+      "Cookies"
+    ],
+    "disclaimer": "Aviso Legal: As informações apresentadas neste site são meramente informativas e não constituem assessoria jurídica ou tributária. Todo serviço é prestado sob os termos acordados contratualmente.",
+    "rights": "© 2024 AnimaAdvisors. Todos os direitos reservados."
+  }
+}

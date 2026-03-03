@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "services": "Services",
+    "howWeWork": "How We Work",
+    "reach": "Reach",
+    "more": "More",
+    "contact": "Contact",
+    "schedule": "Schedule a Call"
+  },
+  "hero": {
+    "badge1": "15 YEARS",
+    "badge2": "120 YEARS OF EXPERIENCE",
+    "badge3": "INTERNATIONAL FOCUS",
+    "title": "International planning for families and patrimonial structures",
+    "subtitle": "We accompany family offices with a rigorous approach on the tax, succession, and corporate pillars.",
+    "cta1": "Request Professional Consultation",
+    "cta2": "Our Services"
+  },
+  "services": {
+    "sectionTitle": "Specialized Services",
+    "corporate": {
+      "title": "Corporate Services",
+      "description": "Incorporation, transfer, and agent change in BVI, Bahamas, Panama, Nevis, and USA.",
+      "items": [
+        "SFC Registration",
+        "Regulatory compliance",
+        "Powers of attorney"
+      ]
+    },
+    "planning": {
+      "title": "Estate Planning",
+      "description": "Legacy protection through robust and secure legal structures.",
+      "items": [
+        "Trust Fiduciaries",
+        "Structures by jurisdiction",
+        "Inheritance by jurisdiction"
+      ]
+    },
+    "residency": {
+      "title": "Residencies",
+      "description": "Comprehensive management of international mobility and tax residency.",
+      "items": [
+        "Tax residency in Uruguay",
+        "Citizenship procedures",
+        "Tax advisory"
+      ]
+    },
+    "accounting": {
+      "title": "Accounting",
+      "description": "Rigorous accounting administration for local and offshore structures.",
+      "items": [
+        "Annual balance",
+        "Asset assessment",
+        "Financial tax analysis"
+      ]
+    }
+  },
+  "howWeWork": {
+    "sectionTitle": "How We Work",
+    "subtitle": "ACCOMPANIMENT METHODOLOGY",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Diagnosis",
+        "description": "Comprehensive assessment of the current patrimonial situation."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "description": "Preparation of jurisdiction-optimized structures."
+      },
+      {
+        "number": "03",
+        "title": "Implementation",
+        "description": "Precise execution and coordination with banking entities."
+      },
+      {
+        "number": "04",
+        "title": "Maintenance",
+        "description": "Ongoing monitoring and compliance with current regulations."
+      }
+    ],
+    "guarantee": "Guaranteed response within 24–48 business hours"
+  },
+  "reach": {
+    "sectionTitle": "Jurisdictional Reach",
+    "description": "We operate in the most relevant financial centers, ensuring each structure complies with international transparency standards.",
+    "jurisdictions": [
+      "Uruguay",
+      "Bahamas",
+      "Nevis",
+      "BVI",
+      "Panama",
+      "USA"
+    ],
+    "quote": "We maintain a broad confidentiality and professional ethics protocol within the framework of patrimonial planning."
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What are the requirements for tax residency in Uruguay?",
+        "answer": "To obtain tax residency in Uruguay, you must spend more than 183 days in the country or have investments exceeding USD 1.7 million. The process includes DGI registration, identity documentation, and proof of ties to the country."
+      },
+      {
+        "question": "What does the BOI (Beneficial Ownership Information) report from FINCEN entail?",
+        "answer": "The FinCEN BOI report is an obligation for US entities under the Corporate Transparency Act. It requires disclosing beneficial owners with more than 25% participation or effective control."
+      },
+      {
+        "question": "Why use a Trust instead of a simple will?",
+        "answer": "A Trust offers multiple advantages: it avoids the judicial succession process, protects assets from creditors, allows control over future distributions, and can offer tax benefits depending on the jurisdiction."
+      },
+      {
+        "question": "What documentation is required for the KYC process?",
+        "answer": "The KYC process generally requires: current identity document, recent proof of address, declaration of source of funds, bank references, and corporate structure for legal entities."
+      },
+      {
+        "question": "How do you coordinate with international banks?",
+        "answer": "We work with a network of correspondent banks in the main jurisdictions. We coordinate account opening, compliance management, and direct communication with account officers."
+      },
+      {
+        "question": "Do you offer accounting services for BVI companies?",
+        "answer": "Yes, we offer complete accounting services for BVI companies including preparation of financial statements, transaction recording, compliance with annual obligations, and reports for directors and shareholders."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Start the Conversation",
+    "subtitle": "Complete the form and an advisor will get in touch with you.",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Smith",
+    "serviceInterest": "Service of Interest",
+    "selectService": "Select a service",
+    "corporateServices": "Corporate Services",
+    "estatePlanning": "Estate Planning",
+    "residency": "Residencies",
+    "accounting": "Accounting",
+    "professionalEmail": "Professional Email",
+    "emailPlaceholder": "john@company.com",
+    "message": "Message",
+    "messagePlaceholder": "Briefly describe your need...",
+    "country": "Country of Residence",
+    "countryPlaceholder": "United States",
+    "submit": "Send Request"
+  },
+  "footer": {
+    "tagline": "Specialists in patrimonial planning and international corporate solutions for the 21st century.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "navLinks": [
+      "Services",
+      "Methodology",
+      "Contact"
+    ],
+    "legalLinks": [
+      "Privacy",
+      "Terms",
+      "Cookies"
+    ],
+    "disclaimer": "Legal Notice: The information on this website is for informational purposes only and does not constitute legal or tax advice. All services are provided under contractually agreed terms.",
+    "rights": "© 2024 AnimaAdvisors. All rights reserved."
+  }
+}
