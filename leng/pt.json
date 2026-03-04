@@ -9,7 +9,7 @@
   },
   "hero": {
     "badge1": "15 ANOS",
-    "badge2": "120 ANOS DE EXPERIÊNCIA",
+    "badge2": "EXPERIÊNCIA",
     "badge3": "FOCO INTERNACIONAL",
     "title": "Planejamento internacional para famílias e estruturas patrimoniais",
     "subtitle": "Acompanhamos family offices com uma abordagem rigorosa nos pilares tributário, sucessório e corporativo.",
@@ -40,7 +40,7 @@
       "title": "Residências",
       "description": "Gestão integral de mobilidade internacional e residência fiscal.",
       "items": [
-        "Residência fiscal no Uruguai",
+        "Residência fiscal no Uruguai e Paraguai",
         "Procedimentos de cidadania",
         "Consultoria tributária"
       ]
@@ -101,10 +101,7 @@
       {
         "question": "Quais são os requisitos para residência fiscal no Uruguai?",
         "answer": "Para obter residência fiscal no Uruguai, é necessário permanecer mais de 183 dias no país ou ter investimentos superiores a USD 1,7 milhão. O processo inclui cadastro na DGI, documentação de identidade e comprovação de vínculo."
-      },
-      {
-        "question": "O que implica o relatório BOI da FINCEN?",
-        "answer": "O relatório BOI da FinCEN é uma obrigação para entidades americanas sob a Corporate Transparency Act. Exige declarar os beneficiários com mais de 25% de participação ou controle efetivo."
+        
       },
       {
         "question": "Por que usar um Trust em vez de um testamento simples?",
@@ -120,7 +117,7 @@
       },
       {
         "question": "Oferecem serviços de contabilidade para sociedades BVI?",
-        "answer": "Sim, oferecemos serviços completos de contabilidade para sociedades BVI incluindo preparação de demonstrações financeiras, registro de transações e cumprimento de obrigações anuais."
+        "answer": "Sim, oferecemos serviços completos de contabilidade para todas as jurisdições incluindo preparação de demonstrações financeiras, registro de transações e cumprimento de obrigações anuais."
       }
     ]
   },

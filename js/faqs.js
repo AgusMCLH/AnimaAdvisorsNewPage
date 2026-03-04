@@ -1,5 +1,6 @@
 function toggleFAQ(index) {
-  let item = index;
+  let item = document.getElementById(`faq-${index}`);
+
   let wasOpen = item.classList.contains('open');
 
   // Close all

@@ -9,7 +9,7 @@
   },
   "hero": {
     "badge1": "15 YEARS",
-    "badge2": "120 YEARS OF EXPERIENCE",
+    "badge2": "EXPERIENCE",
     "badge3": "INTERNATIONAL FOCUS",
     "title": "International planning for families and patrimonial structures",
     "subtitle": "We accompany family offices with a rigorous approach on the tax, succession, and corporate pillars.",
@@ -40,7 +40,7 @@
       "title": "Residencies",
       "description": "Comprehensive management of international mobility and tax residency.",
       "items": [
-        "Tax residency in Uruguay",
+        "Tax residency in Uruguay and Paraguay",
         "Citizenship procedures",
         "Tax advisory"
       ]
@@ -103,10 +103,6 @@
         "answer": "To obtain tax residency in Uruguay, you must spend more than 183 days in the country or have investments exceeding USD 1.7 million. The process includes DGI registration, identity documentation, and proof of ties to the country."
       },
       {
-        "question": "What does the BOI (Beneficial Ownership Information) report from FINCEN entail?",
-        "answer": "The FinCEN BOI report is an obligation for US entities under the Corporate Transparency Act. It requires disclosing beneficial owners with more than 25% participation or effective control."
-      },
-      {
         "question": "Why use a Trust instead of a simple will?",
         "answer": "A Trust offers multiple advantages: it avoids the judicial succession process, protects assets from creditors, allows control over future distributions, and can offer tax benefits depending on the jurisdiction."
       },
@@ -120,7 +116,7 @@
       },
       {
         "question": "Do you offer accounting services for BVI companies?",
-        "answer": "Yes, we offer complete accounting services for BVI companies including preparation of financial statements, transaction recording, compliance with annual obligations, and reports for directors and shareholders."
+        "answer": "Yes, we offer complete accounting services for all the companies jurisdictions including preparation of financial statements, transaction recording, compliance with annual obligations, and reports for directors and shareholders."
       }
     ]
   },

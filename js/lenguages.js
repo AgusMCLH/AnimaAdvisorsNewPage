@@ -140,12 +140,12 @@ function renderJurisdictions() {
   // Scatter dots on map
   if (dotsEl) {
     const positions = [
-      { top: '25%', left: '20%' },
-      { top: '40%', left: '45%' },
-      { top: '60%', left: '30%' },
-      { top: '35%', left: '70%' },
-      { top: '55%', left: '60%' },
-      { top: '70%', left: '75%' },
+      { top: '49%', left: '55.6%' }, //Bahamas
+      { top: '40%', left: '42%' }, //EUA
+      { top: '51%', left: '60.6%' }, //BVI
+      { top: '53%', left: '62.6%' }, //Nevis
+      { top: '58%', left: '52%' }, //Panama
+      { top: '86%', left: '66%' },
     ];
     dotsEl.innerHTML = positions
       .slice(0, juris.length)

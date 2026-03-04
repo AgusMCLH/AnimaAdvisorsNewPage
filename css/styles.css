@@ -16,6 +16,16 @@
       --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+
+  .maped{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+  }
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
@@ -86,6 +96,18 @@
       align-items: center;
       justify-content: space-between;
       height: 68px;
+    }
+    .logoImage{
+      display: inline-block;
+      margin: 0px 5px -4px 0;
+      position: relative;
+      transform: translate(0%, 10%);
+      width: 28px;
+      height: 28px;
+      background-image: url(./../img/ANIMA_icon_yellow_crop.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+
     }
     .logo {
       font-family: var(--font-display);
@@ -520,13 +542,26 @@
       0% { transform: scale(1); opacity: 0.5; }
       100% { transform: scale(2.5); opacity: 0; }
     }
+    .mapImage {
+      position: relative;
+      height: 350px;
+      aspect-ratio: 1/1;
+      background-image: url(./../img/map.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
     .reach-grid-overlay {
       position: absolute;
       inset: 0;
       background-image:
         linear-gradient(rgba(184,150,12,0.06) 1px, transparent 1px),
         linear-gradient(90deg, rgba(184,150,12,0.06) 1px, transparent 1px);
+        
       background-size: 40px 40px;
+      /* background-image: url(./../img/map.svg);
+      background-repeat: no-repeat;
+      background-position: center; */
     }
     .reach-label {
       position: absolute;
@@ -745,7 +780,10 @@
       .services-grid { grid-template-columns: repeat(2, 1fr); }
       .steps-grid { grid-template-columns: repeat(2, 1fr); }
       .reach-inner { grid-template-columns: 1fr; gap: 48px; }
-      .reach-visual { height: 280px; }
+      .reach-visual { height: 320px; }
+      .mapImage{
+      height: 300px;
+      }
       .footer-main { grid-template-columns: 1fr 1fr; }
       .footer-brand { grid-column: 1 / -1; }
       .nav-links { display: none; }

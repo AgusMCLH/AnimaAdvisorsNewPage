@@ -112,7 +112,9 @@
     <nav class="navbar" id="navbar">
       <div class="container">
         <div class="navbar-inner">
-          <a href="#" class="logo">Anima<span>Advisors</span></a>
+          <a href="#" class="logo"
+            ><i class="logoImage"></i>Anima<span>Advisors</span></a
+          >
 
           <ul class="nav-links">
             <li>
@@ -465,8 +467,11 @@
           <!-- <div class="reach-visual reveal"> -->
           <div class="reach-visual">
             <div class="reach-map-bg">
+              <div class="mapImage">
+                <div class="reach-map-dots" id="map-dots"></div>
+              </div>
               <div class="reach-grid-overlay"></div>
-              <div class="reach-map-dots" id="map-dots"></div>
+
               <div class="reach-label" id="reach-tags"></div>
             </div>
           </div>
@@ -516,7 +521,7 @@
             </div>
           </div>
 
-          <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-item" onclick="toggleFAQ(this, e)">
             <div class="faq-question">
               <span class="faq-question-text"
                 >O que implica o relat&#243;rio BOI (Beneficial Ownership
@@ -752,7 +757,9 @@
       <div class="container">
         <div class="footer-main">
           <div class="footer-brand">
-            <div class="logo">Anima<span>Advisors</span></div>
+            <div class="logo">
+              <i class="logoImage"></i>Anima<span>Advisors</span>
+            </div>
             <p class="footer-tagline" data-i18n="footer.tagline">
               Especialistas em planejamento patrimonial e solu&#231;&#245;es
               corporativas internacionais para o s&#233;culo XXI.

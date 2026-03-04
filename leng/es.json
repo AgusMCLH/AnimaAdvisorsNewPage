@@ -9,7 +9,7 @@
   },
   "hero": {
     "badge1": "15 AÑOS",
-    "badge2": "120 AÑOS DE EXPERIENCIA",
+    "badge2": "EXPERIENCIA",
     "badge3": "ENFOQUE INTERNACIONAL",
     "title": "Planificación internacional para familias y estructuras patrimoniales",
     "subtitle": "Acompañamos a family offices con un enfoque riguroso en los pilares tributario, sucesorio y corporativo.",
@@ -40,7 +40,7 @@
       "title": "Residencias",
       "description": "Gestión integral de movilidad internacional y residencia fiscal.",
       "items": [
-        "Residencia fiscal en Uruguay",
+        "Residencia fiscal en Uruguay y Paraguay",
         "Trámites de ciudadanía",
         "Asesoría tributaria"
       ]
@@ -103,10 +103,6 @@
         "answer": "Para obtener la residencia fiscal en Uruguay se requiere pasar más de 183 días en el país o tener inversiones superiores a USD 1.7 millones. El proceso incluye inscripción en DGI, documentación de identidad y demostración de arraigo."
       },
       {
-        "question": "¿Qué implica el reporte BOI (Beneficial Ownership Information) de FINCEN?",
-        "answer": "El reporte BOI de FinCEN es una obligación para entidades estadounidenses bajo la Corporate Transparency Act. Requiere declarar a los beneficiarios con más del 25% de participación o control efectivo."
-      },
-      {
         "question": "¿Por qué utilizar un Trust en lugar de un testamento simple?",
         "answer": "Un Trust ofrece múltiples ventajas: evita el proceso de sucesión judicial, protege activos de acreedores, permite control sobre distribuciones futuras y puede ofrecer beneficios tributarios según la jurisdicción."
       },
@@ -120,7 +116,7 @@
       },
       {
         "question": "¿Ofrecen servicios de contabilidad para sociedades BVI?",
-        "answer": "Sí, ofrecemos servicios completos de contabilidad para sociedades BVI incluyendo preparación de estados financieros, registro de transacciones, cumplimiento de obligaciones anuales y reportes para directores y accionistas."
+        "answer": "Sí, ofrecemos servicios completos de contabilidad para sociedades en todas las jurisdicciones incluyendo preparación de estados financieros, registro de transacciones, cumplimiento de obligaciones anuales y reportes para directores y accionistas."
       }
     ]
   },
