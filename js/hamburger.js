@@ -1,4 +1,3 @@
-/* ── Hamburger ── */
 document.getElementById('hamburger').addEventListener('click', function () {
   this.classList.toggle('open');
   document.getElementById('mobile-menu').classList.toggle('open');

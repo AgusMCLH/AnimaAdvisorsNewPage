@@ -1,7 +1,6 @@
 let translations = {};
 
 const checkDefLeng = () => {
-  // Debe entrar como animaadvisors.com?lang=es o ?lang=en o ?lang=pt
   const urlParams = new URLSearchParams(window.location.search);
   const lang = urlParams.get('lang');
   if (lang && ['es', 'en', 'pt'].includes(lang)) {
@@ -28,9 +27,6 @@ const fetchTranslation = async () => {
 
 fetchTranslation();
 
-/* ==============================================
-   I18N ENGINE
-   ============================================== */
 let currentLang = 'pt';
 
 function t(path) {
@@ -75,9 +71,6 @@ async function setLang(lang) {
   renderFooterLinks();
 }
 
-/* ==============================================
-   DYNAMIC RENDERERS
-   ============================================== */
 function renderServices() {
   const map = [
     { listId: 'list-corporate', key: 'services.corporate.items' },
@@ -145,7 +138,7 @@ function renderJurisdictions() {
       { top: '51%', left: '60.6%' }, //BVI
       { top: '53%', left: '62.6%' }, //Nevis
       { top: '58%', left: '52%' }, //Panama
-      { top: '86%', left: '66%' },
+      { top: '86%', left: '66%' }, // Uruguay
     ];
     dotsEl.innerHTML = positions
       .slice(0, juris.length)
