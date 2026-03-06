@@ -130,7 +130,7 @@
               >
             </li>
             <li><a href="#reach" data-i18n="nav.reach">Alcance</a></li>
-            <li><a href="#faq" data-i18n="nav.more">D&#250;vidas</a></li>
+            <!-- <li><a href="#faq" data-i18n="nav.more">D&#250;vidas</a></li> -->
             <li><a href="#contact" data-i18n="nav.contact">Contato</a></li>
           </ul>
 
@@ -150,7 +150,11 @@
                 <span class="lang-flag">🇺🇾</span> ES
               </button>
             </div>
-            <button class="btn-schedule" data-i18n="nav.schedule">
+            <button
+              onclick="document.getElementById('contactC').click()"
+              class="btn-schedule"
+              data-i18n="nav.schedule"
+            >
               Agendar liga&#231;&#227;o
             </button>
           </div>
@@ -162,11 +166,13 @@
       </div>
 
       <div class="mobile-menu" id="mobile-menu">
-        <a href="#services" data-i18n="nav.services">Servi&#231;os</a>
+        <a href="#services" id="servicesC" data-i18n="nav.services"
+          >Servi&#231;os</a
+        >
         <a href="#how-we-work" data-i18n="nav.howWeWork">CComo trabalhamos</a>
         <a href="#reach" data-i18n="nav.reach">Alcance</a>
-        <a href="#faq" data-i18n="nav.more">D&#250;vidas</a>
-        <a href="#contact" data-i18n="nav.contact">Contato</a>
+        <!-- <a href="#faq" data-i18n="nav.more">D&#250;vidas</a> -->
+        <a href="#contact" id="contactC" data-i18n="nav.contact">Contato</a>
         <div class="mobile-lang">
           <button class="lang-btn" onclick="setLang('es')" id="mbtn-es">
             <span class="lang-flag">🇺🇾</span> ES
@@ -202,10 +208,18 @@
             tribut&#225;rio, sucess&#243;rio e corporativo.
           </p>
           <div class="hero-ctas">
-            <button class="btn-primary" data-i18n="hero.cta1">
+            <button
+              class="btn-primary"
+              onclick="document.getElementById('contactC').click()"
+              data-i18n="hero.cta1"
+            >
               Solicitar Consulta Profissional
             </button>
-            <button class="btn-outline" data-i18n="hero.cta2">
+            <button
+              class="btn-outline"
+              onclick="document.getElementById('servicesC').click()"
+              data-i18n="hero.cta2"
+            >
               Nossos Servi&#231;os
             </button>
           </div>
@@ -468,189 +482,6 @@
       </div>
     </section>
 
-    <!-- <section class="faq-section" id="faq">
-      <div class="container">
-        <div class="faq-header reveal">
-          <p class="section-label">—</p>
-          <h2 class="section-title" data-i18n="faq.sectionTitle">
-            Perguntas Frequentes
-          </h2>
-          <div class="gold-line"></div>
-        </div>
-        <div class="faq-list reveal" id="faq-list">
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span class="faq-question-text"
-                >Quais s&#227;o os requisitos para resid&#234;ncia fiscal no
-                Uruguai?</span
-              >
-              <div class="faq-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <line x1="12" y1="5" x2="12" y2="19" />
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                </svg>
-              </div>
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                Para obter resid&#234;ncia fiscal no Uruguai, &#233;
-                necess&#225;rio permanecer mais de 183 dias no pa&#237;s ou ter
-                investimentos superiores a USD 1,7 milh&#227;o. O processo
-                inclui cadastro na DGI, documenta&#231;&#227;o de identidade e
-                comprova&#231;&#227;o de v&#237;nculo.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this, e)">
-            <div class="faq-question">
-              <span class="faq-question-text"
-                >O que implica o relat&#243;rio BOI (Beneficial Ownership
-                Information) da FINCEN?</span
-              >
-              <div class="faq-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <line x1="12" y1="5" x2="12" y2="19" />
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                </svg>
-              </div>
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                O relat&#243;rio BOI da FinCEN &#233; uma obriga&#231;&#227;o
-                para entidades americanas sob a Corporate Transparency Act.
-                Exige declarar os benefici&#225;rios com mais de 25% de
-                participa&#231;&#227;o ou controle efetivo.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span class="faq-question-text"
-                >Por que usar um Trust em vez de um testamento simples?</span
-              >
-              <div class="faq-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <line x1="12" y1="5" x2="12" y2="19" />
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                </svg>
-              </div>
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                Um Trust oferece m&#250;ltiplas vantagens: evita o processo de
-                invent&#225;rio judicial, protege ativos de credores, permite
-                controle sobre distribui&#231;&#245;es futuras e pode oferecer
-                benef&#237;cios tribut&#225;rios conforme a
-                jurisdi&#231;&#227;o.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span class="faq-question-text"
-                >Qual documenta&#231;&#227;o &#233; solicitada para o processo
-                de KYC?</span
-              >
-              <div class="faq-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <line x1="12" y1="5" x2="12" y2="19" />
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                </svg>
-              </div>
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                O processo KYC geralmente requer: documento de identidade
-                vigente, comprovante de endere&#231;o recente,
-                declara&#231;&#227;o de origem dos fundos, refer&#234;ncias
-                banc&#225;rias e estrutura societ&#225;ria para pessoas
-                jur&#237;dicas.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span class="faq-question-text"
-                >Como voc&#234;s se coordenam com bancos internacionais?</span
-              >
-              <div class="faq-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <line x1="12" y1="5" x2="12" y2="19" />
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                </svg>
-              </div>
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                Trabalhamos com uma rede de bancos correspondentes nas
-                principais jurisdi&#231;&#245;es. Coordenamos abertura de
-                contas, gest&#227;o de conformidade e comunica&#231;&#227;o
-                direta com os gerentes de conta.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item" onclick="toggleFAQ(this)">
-            <div class="faq-question">
-              <span class="faq-question-text"
-                >Oferecem servi&#231;os de contabilidade para sociedades
-                BVI?</span
-              >
-              <div class="faq-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <line x1="12" y1="5" x2="12" y2="19" />
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                </svg>
-              </div>
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                Sim, oferecemos servi&#231;os completos de contabilidade para
-                sociedades BVI incluindo prepara&#231;&#227;o de
-                demonstra&#231;&#245;es financeiras, registro de
-                transa&#231;&#245;es, cumprimento de obriga&#231;&#245;es anuais
-                e relat&#243;rios para diretores e acionistas.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <section class="contact-section" id="contact">
       <div class="container">
         <div class="contact-card reveal">
@@ -671,6 +502,7 @@
               >
               <input
                 class="form-input"
+                id="nameInput"
                 type="text"
                 data-i18n-placeholder="contact.fullNamePlaceholder"
                 placeholder="Juan Pérez"
@@ -699,6 +531,7 @@
                 >Email Profissional</label
               >
               <input
+                id="emailInput"
                 class="form-input"
                 type="email"
                 data-i18n-placeholder="contact.emailPlaceholder"
@@ -710,6 +543,7 @@
                 >Pa&#237;s de Resid&#234;ncia</label
               >
               <input
+                id="countryInput"
                 class="form-input"
                 type="text"
                 data-i18n-placeholder="contact.countryPlaceholder"
@@ -721,13 +555,18 @@
                 >Mensagem</label
               >
               <textarea
+                id="messageInput"
                 class="form-textarea"
                 data-i18n-placeholder="contact.messagePlaceholder"
                 placeholder="Descreva brevemente sua necessidade..."
               ></textarea>
             </div>
             <div class="form-group full">
-              <button class="btn-submit" data-i18n="contact.submit">
+              <button
+                id="submitForm"
+                class="btn-submit"
+                data-i18n="contact.submit"
+              >
                 Enviar Solicita&#231;&#227;o
               </button>
             </div>
@@ -789,6 +628,7 @@
     </footer>
     <script src="./js/hamburger.js"></script>
     <!-- <script src="./js/faqs.js"></script> -->
+    <script src="./js/form.js"></script>
     <script src="./js/scrollReveal.js"></script>
     <script src="./js/lenguages.js"></script>
   </body>
