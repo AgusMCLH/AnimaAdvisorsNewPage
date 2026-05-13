@@ -10,21 +10,21 @@
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://www.animaadvisors.com/"
+      href="https://www.animaadvisors.com/index.html"
     />
 
     <!-- Inglés -->
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://www.animaadvisors.com/?lang=en"
+      href="https://www.animaadvisors.com/en.html"
     />
 
     <!-- Español -->
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="https://www.animaadvisors.com/?lang=es"
+      href="https://www.animaadvisors.com/es.html"
     />
 
     <!-- Recomendado: fallback genérico -->
