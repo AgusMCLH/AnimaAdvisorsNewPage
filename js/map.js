@@ -9,11 +9,9 @@ const juris = {
 };
 
 let currentLang = window.location.pathname.split('/').pop().split('.')[0];
-if (currentLang === 'index') {
+if (currentLang === 'index' || currentLang === 'pt' || currentLang === '') {
   currentLang = 'pt';
 }
-
-console.log(juris[currentLang]);
 
 const getJurisdictionHTML = () => {
   let html = '';
@@ -36,8 +34,6 @@ const getDotsHTML = () => {
   }
   return html;
 };
-
-console.log(tagsEl);
 
 if (tagsEl) {
   tagsEl.innerHTML = getDotsHTML();
