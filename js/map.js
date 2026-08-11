@@ -16,7 +16,7 @@ if (currentLang === 'index' || currentLang === 'pt' || currentLang === '') {
 const getJurisdictionHTML = () => {
   let html = '';
   for (let i = 0; i < juris[currentLang].length; i++) {
-    html = +`
+    html += `
                 <div class="jurisdiction-item">
                     <div class="jurisdiction-dot"></div>
                     <span>${juris[currentLang][i]}</span>
@@ -24,7 +24,7 @@ const getJurisdictionHTML = () => {
   }
   return html;
 };
-
+console.log(getJurisdictionHTML());
 grid.innerHTML = getJurisdictionHTML();
 
 const getDotsHTML = () => {
@@ -54,7 +54,7 @@ if (dotsEl) {
     .map(
       (pos, i) => `
       <div class="map-dot" style="top:${pos.top};left:${pos.left};animation-delay:${i * 0.4}s;"></div>
-    `,
+    `
     )
     .join('');
 }
