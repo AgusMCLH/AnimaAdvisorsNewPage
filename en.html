@@ -98,6 +98,20 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="./img/faviocon.ico" type="image/x-icon" />
+    <link
+      rel="preload"
+      as="image"
+      href="./img/hero-bg-mobile.webp"
+      media="(max-width: 768px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./img/hero-bg.webp"
+      media="(min-width: 769px)"
+      fetchpriority="high"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -157,6 +171,7 @@
       </div>
     </nav>
 
+    <main>
     <section class="hero" id="home">
       <div class="container" style="display: contents">
         <div class="hero-content container">
@@ -211,6 +226,9 @@
               <li>Regulatory compliance</li>
               <li>Powers of attorney</li>
             </ul>
+            <a href="./en/servicios-corporativos.html" class="service-link"
+              >Get more details</a
+            >
           </div>
           <div class="service-card">
             <div class="service-icon">
@@ -227,6 +245,9 @@
               <li>Structures by jurisdiction</li>
               <li>Inheritance by jurisdiction</li>
             </ul>
+            <a href="./en/planificacion-sucesoria.html" class="service-link"
+              >Get more details</a
+            >
           </div>
           <div class="service-card">
             <div class="service-icon">
@@ -246,6 +267,9 @@
               <li>Citizenship procedures</li>
               <li>Tax advisory</li>
             </ul>
+            <a href="./en/residencias-fiscales.html" class="service-link"
+              >Get more details</a
+            >
           </div>
           <div class="service-card">
             <div class="service-icon">
@@ -265,6 +289,9 @@
               <li>Asset assessment</li>
               <li>Financial tax analysis</li>
             </ul>
+            <a href="./en/contabilidad.html" class="service-link"
+              >Get more details</a
+            >
           </div>
         </div>
       </div>
@@ -364,7 +391,6 @@
                 <div class="reach-map-dots" id="map-dots"></div>
               </div>
               <div class="reach-grid-overlay"></div>
-              <div class="reach-label" id="reach-tags"></div>
             </div>
           </div>
         </div>
@@ -383,11 +409,11 @@
           </div>
           <div class="form-grid">
             <div class="form-group">
-              <label class="form-label">Full Name</label>
+              <label class="form-label" for="nameInput">Full Name</label>
               <input class="form-input" id="nameInput" type="text" placeholder="Name and Surname" />
             </div>
             <div class="form-group">
-              <label class="form-label">Service of Interest</label>
+              <label class="form-label" for="service-select">Service of Interest</label>
               <select class="form-select" id="service-select">
                 <option value="">Select a service</option>
                 <option>Corporate Services</option>
@@ -397,7 +423,7 @@
               </select>
             </div>
             <div class="form-group">
-              <label class="form-label">Professional Email</label>
+              <label class="form-label" for="emailInput">Professional Email</label>
               <input
                 id="emailInput"
                 class="form-input"
@@ -406,11 +432,11 @@
               />
             </div>
             <div class="form-group">
-              <label class="form-label">Country of Residence</label>
+              <label class="form-label" for="countryInput">Country of Residence</label>
               <input id="countryInput" class="form-input" type="text" placeholder="United States" />
             </div>
             <div class="form-group full">
-              <label class="form-label">Message</label>
+              <label class="form-label" for="messageInput">Message</label>
               <textarea
                 id="messageInput"
                 class="form-textarea"
@@ -424,6 +450,7 @@
         </div>
       </div>
     </section>
+    </main>
 
     <footer class="footer" id="footer-section">
       <div class="container">
@@ -500,11 +527,20 @@
             </ul>
           </div>
           <div>
+            <p class="footer-col-title">Services</p>
+            <ul class="footer-links" id="footer-services-links">
+              <li><a href="./en/servicios-corporativos.html">Corporate Services</a></li>
+              <li><a href="./en/planificacion-sucesoria.html">Estate Planning</a></li>
+              <li><a href="./en/residencias-fiscales.html">Tax Residency</a></li>
+              <li><a href="./en/contabilidad.html">Accounting</a></li>
+            </ul>
+          </div>
+          <div>
             <p class="footer-col-title">Legal</p>
             <ul class="footer-links" id="footer-legal-links">
-              <li><a href="./privacy-en.html">Privacy</a></li>
-              <li><a href="./terms-en.html">Terms</a></li>
-              <li><a href="./cookies-en.html">Cookies</a></li>
+              <li><a href="./en/privacy.html">Privacy</a></li>
+              <li><a href="./en/terms.html">Terms</a></li>
+              <li><a href="./en/cookies.html">Cookies</a></li>
             </ul>
           </div>
         </div>
@@ -573,11 +609,11 @@
       </button>
     </div>
 
-    <script src="./js/hamburger.js"></script>
-    <script src="./js/map.js"></script>
+    <script src="./js/hamburger.js" defer></script>
+    <script src="./js/map.js" defer></script>
 
-    <script src="./js/telephoneWidget.js"></script>
-    <script src="./js/form.js"></script>
-    <script src="./js/scrollReveal.js"></script>
+    <script src="./js/telephoneWidget.js" defer></script>
+    <script src="./js/form.js" defer></script>
+    <script src="./js/scrollReveal.js" defer></script>
   </body>
 </html>

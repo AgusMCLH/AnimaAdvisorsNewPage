@@ -1,0 +1,25 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "query", "key": "lang", "value": "es" }],
+      "destination": "/es.html",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "query", "key": "lang", "value": "en" }],
+      "destination": "/en.html",
+      "permanent": true
+    },
+    { "source": "/cookies.html", "destination": "/pt/cookies.html", "permanent": true },
+    { "source": "/cookies-en.html", "destination": "/en/cookies.html", "permanent": true },
+    { "source": "/cookies-es.html", "destination": "/es/cookies.html", "permanent": true },
+    { "source": "/privacy.html", "destination": "/pt/privacy.html", "permanent": true },
+    { "source": "/privacy-en.html", "destination": "/en/privacy.html", "permanent": true },
+    { "source": "/privacy-es.html", "destination": "/es/privacy.html", "permanent": true },
+    { "source": "/terms.html", "destination": "/pt/terms.html", "permanent": true },
+    { "source": "/terms-en.html", "destination": "/en/terms.html", "permanent": true },
+    { "source": "/terms-es.html", "destination": "/es/terms.html", "permanent": true }
+  ]
+}

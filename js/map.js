@@ -1,11 +1,49 @@
 const grid = document.getElementById('jurisdictions-grid');
-const tagsEl = document.getElementById('reach-tags');
 const dotsEl = document.getElementById('map-dots');
 
 const juris = {
-  es: ['Bahamas', 'EUA', 'BVI', 'Nevis', 'Panamá', 'Uruguay'],
-  en: ['Bahamas', 'USA', 'BVI', 'Nevis', 'Panama', 'Uruguay'],
-  pt: ['Bahamas', 'EUA', 'BVI', 'Nevis', 'Panamá', 'Uruguai'],
+  es: [
+    'Canadá',
+    'Bahamas',
+    'EUA',
+    'BVI',
+    'Nevis',
+    'Panamá',
+    'Paraguay',
+    'Uruguay',
+    'Dubái',
+    'Reino Unido',
+    'Hong Kong',
+    'Singapur',
+  ],
+  en: [
+    'Canada',
+    'Bahamas',
+    'USA',
+    'BVI',
+    'Nevis',
+    'Panama',
+    'Paraguay',
+    'Uruguay',
+    'Dubai',
+    'United Kingdom',
+    'Hong Kong',
+    'Singapore',
+  ],
+  pt: [
+    'Canadá',
+    'Bahamas',
+    'EUA',
+    'BVI',
+    'Nevis',
+    'Panamá',
+    'Paraguay',
+    'Uruguai',
+    'Dubai',
+    'Reino Unido',
+    'Hong Kong',
+    'Singapura',
+  ],
 };
 
 let currentLang = window.location.pathname.split('/').pop().split('.')[0];
@@ -24,36 +62,29 @@ const getJurisdictionHTML = () => {
   }
   return html;
 };
-console.log(getJurisdictionHTML());
 grid.innerHTML = getJurisdictionHTML();
-
-const getDotsHTML = () => {
-  let html = '';
-  for (let i = 0; i < juris[currentLang].length; i++) {
-    html += `<span class="reach-tag">${juris[currentLang][i]}</span>`;
-  }
-  return html;
-};
-
-if (tagsEl) {
-  tagsEl.innerHTML = getDotsHTML();
-}
 
 // Scatter dots on map
 if (dotsEl) {
   const positions = [
-    { top: '49%', left: '55.6%' }, //Bahamas
-    { top: '40%', left: '42%' }, //EUA
-    { top: '51%', left: '60.6%' }, //BVI
-    { top: '53%', left: '62.6%' }, //Nevis
-    { top: '58%', left: '52%' }, //Panama
-    { top: '86%', left: '66%' }, // Uruguay
+    { top: '40.9%', left: '17.4%' }, //Canada
+    { top: '54.9%', left: '24%' }, //Bahamas
+    { top: '49.4%', left: '17.4%' }, //EUA
+    { top: '56.7%', left: '27.1%' }, //BVI
+    { top: '58%', left: '29.6%' }, //Nevis
+    { top: '60.5%', left: '24.8%' }, //Panama
+    { top: '66.4%', left: '29.5%' }, // Paraguay
+    { top: '71.4%', left: '30.5%' }, // Uruguay
+    { top: '55.4%', left: '61.5%' }, // Dubai
+    { top: '44.4%', left: '45.5%' }, // United Kingdom
+    { top: '55.4%', left: '78.5%' }, // Hong Kong
+    { top: '62.4%', left: '74.5%' }, // Singapur
   ];
   dotsEl.innerHTML = positions
-    .slice(0, juris.length)
+    .slice(0, juris[currentLang].length)
     .map(
       (pos, i) => `
-      <div class="map-dot" style="top:${pos.top};left:${pos.left};animation-delay:${i * 0.4}s;"></div>
+      <div class="map-dot" tabindex="0" aria-label="${juris[currentLang][i]}" data-label="${juris[currentLang][i]}" style="top:${pos.top};left:${pos.left};animation-delay:${i * 0.4}s;"></div>
     `
     )
     .join('');

@@ -91,6 +91,20 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="./img/faviocon.ico" type="image/x-icon" />
+    <link
+      rel="preload"
+      as="image"
+      href="./img/hero-bg-mobile.webp"
+      media="(max-width: 768px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./img/hero-bg.webp"
+      media="(min-width: 769px)"
+      fetchpriority="high"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -156,6 +170,7 @@
       </div>
     </nav>
 
+    <main>
     <section class="hero" id="home">
       <div class="container" style="display: contents">
         <div class="hero-content container">
@@ -212,6 +227,9 @@
               <li>Conformidade regulatória</li>
               <li>Procurações</li>
             </ul>
+            <a href="./pt/servicios-corporativos.html" class="service-link"
+              >Obter mais detalhes</a
+            >
           </div>
           <div class="service-card">
             <div class="service-icon">
@@ -228,6 +246,9 @@
               <li>Estruturas por jurisdição</li>
               <li>Heranças por jurisdição</li>
             </ul>
+            <a href="./pt/planificacion-sucesoria.html" class="service-link"
+              >Obter mais detalhes</a
+            >
           </div>
           <div class="service-card">
             <div class="service-icon">
@@ -247,6 +268,9 @@
               <li>Procedimentos de cidadania</li>
               <li>Consultoria tributária</li>
             </ul>
+            <a href="./pt/residencias-fiscales.html" class="service-link"
+              >Obter mais detalhes</a
+            >
           </div>
           <div class="service-card">
             <div class="service-icon">
@@ -266,6 +290,9 @@
               <li>Levantamento de ativos</li>
               <li>Análise financeira fiscal</li>
             </ul>
+            <a href="./pt/contabilidad.html" class="service-link"
+              >Obter mais detalhes</a
+            >
           </div>
         </div>
       </div>
@@ -365,7 +392,6 @@
                 <div class="reach-map-dots" id="map-dots"></div>
               </div>
               <div class="reach-grid-overlay"></div>
-              <div class="reach-label" id="reach-tags"></div>
             </div>
           </div>
         </div>
@@ -384,11 +410,11 @@
           </div>
           <div class="form-grid">
             <div class="form-group">
-              <label class="form-label">Nome Completo</label>
+              <label class="form-label" for="nameInput">Nome Completo</label>
               <input class="form-input" id="nameInput" type="text" placeholder="Nome e Sobrenome" />
             </div>
             <div class="form-group">
-              <label class="form-label">Serviço de Interesse</label>
+              <label class="form-label" for="service-select">Serviço de Interesse</label>
               <select class="form-select" id="service-select">
                 <option value="">Selecione um serviço</option>
                 <option>Serviços Corporativos</option>
@@ -398,7 +424,7 @@
               </select>
             </div>
             <div class="form-group">
-              <label class="form-label">Email Profissional</label>
+              <label class="form-label" for="emailInput">Email Profissional</label>
               <input
                 id="emailInput"
                 class="form-input"
@@ -407,11 +433,11 @@
               />
             </div>
             <div class="form-group">
-              <label class="form-label">País de Residência</label>
+              <label class="form-label" for="countryInput">País de Residência</label>
               <input id="countryInput" class="form-input" type="text" placeholder="Brasil" />
             </div>
             <div class="form-group full">
-              <label class="form-label">Mensagem</label>
+              <label class="form-label" for="messageInput">Mensagem</label>
               <textarea
                 id="messageInput"
                 class="form-textarea"
@@ -425,6 +451,7 @@
         </div>
       </div>
     </section>
+    </main>
 
     <footer class="footer" id="footer-section">
       <div class="container">
@@ -501,11 +528,20 @@
             </ul>
           </div>
           <div>
+            <p class="footer-col-title">Serviços</p>
+            <ul class="footer-links">
+              <li><a href="./pt/servicios-corporativos.html">Serviços Corporativos</a></li>
+              <li><a href="./pt/planificacion-sucesoria.html">Planejamento Sucessório</a></li>
+              <li><a href="./pt/residencias-fiscales.html">Residências Fiscais</a></li>
+              <li><a href="./pt/contabilidad.html">Contabilidade</a></li>
+            </ul>
+          </div>
+          <div>
             <p class="footer-col-title">Legal</p>
             <ul class="footer-links">
-              <li><a href="./privacy.html">Privacidade</a></li>
-              <li><a href="./terms.html">Termos</a></li>
-              <li><a href="./cookies.html">Cookies</a></li>
+              <li><a href="./pt/privacy.html">Privacidade</a></li>
+              <li><a href="./pt/terms.html">Termos</a></li>
+              <li><a href="./pt/cookies.html">Cookies</a></li>
             </ul>
           </div>
         </div>
@@ -574,10 +610,10 @@
       </button>
     </div>
 
-    <script src="./js/hamburger.js"></script>
-    <script src="./js/map.js"></script>
-    <script src="./js/telephoneWidget.js"></script>
-    <script src="./js/form.js"></script>
-    <script src="./js/scrollReveal.js"></script>
+    <script src="./js/hamburger.js" defer></script>
+    <script src="./js/map.js" defer></script>
+    <script src="./js/telephoneWidget.js" defer></script>
+    <script src="./js/form.js" defer></script>
+    <script src="./js/scrollReveal.js" defer></script>
   </body>
 </html>
