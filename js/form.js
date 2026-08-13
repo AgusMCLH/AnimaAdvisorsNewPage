@@ -13,11 +13,12 @@ document
 
     const name = document.getElementById('nameInput').value;
     const email = document.getElementById('emailInput').value;
+    const phone = document.getElementById('phoneInput').value;
     const message = document.getElementById('messageInput').value;
     const country = document.getElementById('countryInput').value;
     const service = document.getElementById('service-select').value;
 
-    if (!name || !email || !message || !country || !service) {
+    if (!name || !email || !phone || !message || !country || !service) {
       alert('Por favor, preencha todos os campos obrigatórios.');
       active = false;
       return;
@@ -33,7 +34,7 @@ document
       const result = await fetch('https://formspree.io/f/mreygkqo', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, message, country, service }),
+        body: JSON.stringify({ name, email, phone, message, country, service }),
       });
       alert('Mensagem enviada com sucesso!');
     } catch (error) {
