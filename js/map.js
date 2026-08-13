@@ -84,7 +84,7 @@ if (dotsEl) {
     .slice(0, juris[currentLang].length)
     .map(
       (pos, i) => `
-      <div class="map-dot" tabindex="0" aria-label="${juris[currentLang][i]}" data-label="${juris[currentLang][i]}" style="top:${pos.top};left:${pos.left};animation-delay:${i * 0.4}s;"></div>
+      <div class="map-dot" role="button" tabindex="0" aria-label="${juris[currentLang][i]}" data-label="${juris[currentLang][i]}" style="top:${pos.top};left:${pos.left};animation-delay:${i * 0.4}s;"></div>
     `
     )
     .join('');
