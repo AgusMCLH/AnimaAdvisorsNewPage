@@ -93,8 +93,8 @@ ul {
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  border: 1px solid var(--gold);
-  color: var(--gold);
+  border: 1px solid #715c05;
+  color: #715c05;
   padding: 4px 12px;
   border-radius: 20px;
   margin: 3px 4px 3px 0;
